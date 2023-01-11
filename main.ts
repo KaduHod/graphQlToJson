@@ -1,4 +1,4 @@
-export function toJson(string){
+export function toJson (string:string) {
     const splitByLine = (string:string) => string.split('\n');
     const isObject    = (string:string) => string.indexOf(' {') > -1;
     const isProperty  = (string:string) => !isObject(string);
