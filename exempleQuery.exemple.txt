@@ -1,0 +1,17 @@
+{
+  alunos {
+    id
+    user {
+      id
+      name
+      contact {
+        celphone 
+      }
+    }
+    nickanme
+    address {
+      street 
+    }
+    roupa
+  }
+}
